@@ -7,6 +7,9 @@
 ## Description
 A simple user-script for the Mastodon Web UI which adds a toggle button to unhide/hides all content warning text by default.
 
+## Motivation
+[![Picture of a mastodon toot that also links to it directly](https://i.imgur.com/IKfm2k6.png)](https://witches.town/@morganastra/99453854540460685)
+
 ## Installation
 
 ### 1. Install a user script manager for your browser
