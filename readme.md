@@ -21,6 +21,8 @@ Choose from one of these options for your browser (more options coming). The scr
 
 ### 2. Install the script
 
+[Click Here!](https://rawgit.com/Fumon/unContentWarn/master/unContentWarn.user.js) your user-script manager should handle everything and bring up a review screen. Follow step #3 and you should be good to go.
+
 ### 3. Modify the script for your instance URL
 
 In this early version of the script, you'll have to install the script and then edit the `@match` line to match your instance's URL through Tamper/Grease/Violentmonkey's script editor.
@@ -33,6 +35,18 @@ For example, if you browse your instance at https://icosohedron.web/ then you'd 
 // @description Adds a button to toggle the hiding of content warning text content.
 // @match https://icosohedron.web/web/* 
 ```
+
+### 4. Reload your instance's website
+
+You should be in business!
+
+## Usage
+
+Look for this button
+
+![Should look like this](https://i.imgur.com/srXtEkW.png)
+
+Click it to toggle content warnings off and on.
 
 ## FAQ
 
