@@ -7,6 +7,12 @@
 ## Description
 A simple user-script for the Mastodon Web UI which adds a toggle button to unhide/hides all content warning text by default.
 
+The script is super rough and currently doesn't do anything but unhide the text which means it'll still show "show more" but the text will be there. If there's enough interest, I'll make it a bit more polished.
+
+If there's a whole lot of interest, I'll mod the mastodon sourcecode and submit a patch to integrate it into the official base preferences.
+
+Give this repo a star to let me know you want more.
+
 ## Motivation
 [![Picture of a mastodon toot that also links to it directly](https://i.imgur.com/IKfm2k6.png)](https://witches.town/@morganastra/99453854540460685)
 
