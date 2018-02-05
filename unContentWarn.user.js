@@ -7,6 +7,8 @@
 // @grant none
 // @run-at document-end
 // @version 0.1.1
+// @updateURL https://rawgit.com/Fumon/unContentWarn/master/unContentWarn.user.js
+// @downloadURL https://rawgit.com/Fumon/unContentWarn/master/unContentWarn.user.js
 // ==/UserScript==
 
 // Icon strings
