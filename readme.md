@@ -2,14 +2,12 @@
 
 [![Buy me a coffee!](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mI8stwU4P)
 
-`Version 0.1.0`
+`Version 0.1.4`
 
 ## Description
 A simple user-script for the Mastodon Web UI which adds a toggle button to unhide/hides all content warning text by default.
 
-The script is super rough and currently doesn't do anything but unhide the text which means it'll still show "show more" but the text will be there. If there's enough interest, I'll make it a bit more polished.
-
-If there's a whole lot of interest, I'll mod the mastodon sourcecode and submit a patch to integrate it into the official base preferences.
+If there's interest, I'll mod the mastodon sourcecode and submit a patch so instance owners can include it as a feature.
 
 Give this repo a star to let me know you want more.
 
@@ -30,7 +28,7 @@ Choose from one of these options for your browser (more options coming). The scr
 
 ### 2. Install the script
 
-[Click Here!](https://rawgit.com/Fumon/unContentWarn/master/unContentWarn.user.js) your user-script manager should handle everything and bring up a review screen. Follow step #3 and you should be good to go.
+[Click Here!](https://raw.githubusercontent.com/Fumon/unContentWarn/master/unContentWarn.user.js) your user-script manager should handle everything and bring up a review screen. Follow step #3 and you should be good to go.
 
 ### 3. Modify the script for your instance URL
 
@@ -58,6 +56,10 @@ Look for this button
 Click it to toggle content warnings off and on.
 
 ## FAQ
+
+### How do I update this?
+
+You'll have to reinstall the script from the link above and copy your @match. If I enable auto-update, it'll wipe your @match every time and that's just annoying.
 
 ### How do I make this work with multiple instances?
 
