@@ -59,7 +59,17 @@ Click it to toggle content warnings off and on.
 
 ## FAQ
 
-Ask some questions!
+### How do I make this work with multiple instances?
+
+Simply add an extra @match line e.g.
+
+```
+// ==UserScript==
+// @name unContentWarn
+// @description Adds a button to toggle the hiding of content warning text content.
+// @match https://icosohedron.web/web/* 
+// @match https://cybre.space/web/*
+```
 
 ## Contact
 
