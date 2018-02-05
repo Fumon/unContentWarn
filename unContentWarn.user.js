@@ -25,8 +25,15 @@ let unCW = {
     let style = document.createElement("style");
     style.type = "text/css";
         style.innerHTML = `
-      .reply-indicator__content .status__content__text, .status__content .status__content__text {
-        display: block;}
+      .status__content--with-spoiler p:first-of-type {
+        margin-bottom: 20px !important;
+      }
+      .status__content--with-spoiler div:first-of-type:not(.status__content__text){
+        display: none;
+      }
+      .status__content--with-spoiler .status__content__text {
+        display: block;
+      }
     `;
     this.styleElement = style;
   },
