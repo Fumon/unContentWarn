@@ -11,7 +11,7 @@
 
 // Icon strings
 const expandIcon = "fa-plus-square";
-const collapseIcon = "fa-minus-square"
+const collapseIcon = "fa-minus-square";
 
 let unCW = {
   expanding: false,
